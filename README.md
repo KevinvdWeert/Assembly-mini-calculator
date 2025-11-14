@@ -16,12 +16,18 @@ A simple calculator written in x86-64 assembly language (NASM syntax) for Linux 
 - **NASM** (Netwide Assembler)
 - **ld** (GNU Linker)
 - **Linux** or WSL (Windows Subsystem for Linux)
+- **Note**: This project was developed and tested on Kali Linux (dual boot setup)
 
 ## Installation
 
 1. Install NASM if not already installed:
    ```bash
    sudo apt-get install nasm
+   ```
+   
+   *On Kali Linux, NASM may already be installed. Verify with:*
+   ```bash
+   nasm --version
    ```
 
 2. Clone or download this repository
@@ -101,4 +107,4 @@ Free to use and modify for educational purposes.
 
 ## Author
 
-Assembly programming exercise
+Assembly programming exercise - Developed on Kali Linux (dual boot)
